@@ -1,0 +1,24 @@
+Project Overview
+This project is built using Express.js for the server, PostgreSQL for the database, and Sequelize ORM for managing models.
+
+Key Features
+Automated setup for routing and database model synchronization.
+Configuration stored in an .env file, managed by the admin.
+
+Database Functionality
+Checks if the database exists.
+Creates the database automatically if not found.
+Fetches model schemas from the models folder.
+Uses Sequelize to generate tables based on schemas.
+
+Router Functionality
+Partially automated for flexibility.
+Similar to Vue Router, allowing manual route definitions.
+
+Environment Variables (ENV File)
+The .env file stores important configuration details such as database credentials and API keys.
+
+API Testing URLs
+index page: http://localhost:3000/api/
+home page: http://localhost:3000/api/home
+cars page: http://localhost:3000/api/cars
